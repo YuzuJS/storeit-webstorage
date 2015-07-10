@@ -1,0 +1,45 @@
+{
+  "name": "storeit-webstorage",
+  "version": "0.1.0",
+  "description": "One-stop shopping for using `storeit` with `storeit-provider-webstorage` and `storeit-serializer-json`.",
+  "homepage": "https://github.com/YuzuJS/storeit-webstorage",
+  "author": {
+    "name": "YuzuJS"
+  },
+  "keywords": [
+    "storeit",
+    "webstorage",
+    "localstorage",
+    "sessionstorage",
+    "key",
+    "value",
+    "pair",
+    "kvp"
+  ],
+  "contributors": [
+    {
+      "name": "Donavon West",
+      "email": "email@donavon.com",
+      "url": "http://donavon.com"
+    }
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "http://github.com/YuzuJS/storeit-webstorage/raw/master/LICENSE"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/YuzuJS/storeit-webstorage.git"
+  },
+  "readmeFilename": "README.md",
+  "scripts": {
+    "lint": "jshint index.js"
+  },
+  "dependencies": {
+    "storeit": "^2.3.1",
+    "storeit-provider-webstorage": "^1.0.0",
+    "storeit-serializer-json": "^1.0.0"
+  },
+  "devDependencies": {
+  }
+}
